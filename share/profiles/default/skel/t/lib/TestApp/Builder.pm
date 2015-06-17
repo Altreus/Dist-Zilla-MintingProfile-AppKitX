@@ -12,7 +12,7 @@ override _build_plugins => sub {
     my $plugins = super(); # Get what CatalystX::AppBuilder gives you
 
     push @$plugins, qw(
-        +{{ $dzil->name =~ s/-/::/gr }}
+        +{{ $dist->name =~ s/-/::/gr }}
     );
 
     return $plugins;

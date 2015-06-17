@@ -5,8 +5,9 @@ use CatalystX::InjectComponent;
 use namespace::autoclean;
 
 our $VERSION = '0.01';
-
-{{ ($controller) = ($name =~ /::([^:]+)$/); }}
+{{ 
+    ($controller) = ($name =~ /::([^:]+)$/); ''
+}}
 after 'setup_components' => sub {
     my $class = shift;
    
