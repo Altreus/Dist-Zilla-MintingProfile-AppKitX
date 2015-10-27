@@ -1,0 +1,2 @@
+requires 'OpusVL::AppKit';
+requires 'Dist::Zilla::Plugin::MungeFile::WithDataSection';
