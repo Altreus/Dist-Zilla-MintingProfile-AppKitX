@@ -2,7 +2,7 @@ package Dist::Zilla::MintingProfile::AppKitX;
 
 # ABSTRACT: Mints a new AppKitX component
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile';
 use File::ShareDir;
